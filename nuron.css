@@ -1,0 +1,63 @@
+*{
+    padding: ;
+    margin: ;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10%;
+    border-bottom: solid gray;
+    
+}
+.firstnavbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ 
+}
+.secondnavbar{
+    margin: auto;
+    display: flex;
+    gap: 20px;
+
+}
+ .secondnavbar p{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+ }
+ .lastnavbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+
+.lastnavbar input{
+padding: 10px 10px;
+border-radius: 10px;
+}
+.lastnavbar button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.belldiv{
+    color: white;
+}
+.brightnessdiv{
+    color: white;
+}
+.divtwo{
+    display: flex;
+    gap: 20px;
+    color: white;
+    background-color: black;
+}
+.section div img{
+    
+    
+}

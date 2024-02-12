@@ -1,0 +1,29 @@
+*{
+   padding: ;
+   margin: ;
+   box-sizing: border-box;
+}
+.Dropdowndiv{
+    background-color: ;
+    color: white;
+    padding: 20px;
+    border-radius: ;
+    padding-bottom: ;
+    width: ; 
+    font-size: ;
+    display: none;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: ;
+    left: ;
+}
+.hoverclass{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.hoverclass:hover .Dropdowndiv{
+    display: block;
+}

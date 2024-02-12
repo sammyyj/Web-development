@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.topdiv{
+    background-color: white;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 30px;
+    justify-content: center;
+
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.nav h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seconddiv{
+    background-image: url(portrait-beautiful-black-woman-with-mysterious-shadows.jpg);
+    background-size: cover;
+    height: ;
+    color: blueviolet;
+}
+
+.seconddiv nav h2{
+    color: white;
+}
+
+.lastdiv{
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ display: grid;
+ margin: 130px;
+ color: white;
+}
+.lastdiv h3{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.lastdiv h1{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.lastdiv p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.lastdiv button{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    color: orange;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+}

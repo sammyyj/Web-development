@@ -1,0 +1,22 @@
+/* universal selector */
+
+*{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
+
+.genDiv{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.genDiv div{
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+    padding: 60px;
+    width: 20%;
+}

@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 20px 10%;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.leftnavbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.rightnavbar{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+.rightnavbar button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* backgroundsection */
+
+.backgroundsection {
+    background-image: url("back.png");
+    background-size: cover;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.backgroundsection div{
+    text-align: center;
+}
+.backgroundsection div h2{
+    font-size: 60px;
+}
+.backgroundsection p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.backgroundsection  button{
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.backgroundsection button:hover{
+    background-color: orange;
+    color: white;
+    transition: all 0.5s ease;
+    transform:scale(0.9);
+}

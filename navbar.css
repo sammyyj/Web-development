@@ -1,0 +1,35 @@
+
+*{
+    padding: ;
+    margin: ;
+    box-sizing: ;
+}
+ nav{
+    background-color: purple;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10%;
+    color: white;
+ }
+ .leftnavbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .rightnavbar{
+    margin-left: auto;
+ }
+ .rightnavbar ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .rightnavbar ul li{
+    list-style: none;
+ }
+ .rightnavbar ul button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+ }

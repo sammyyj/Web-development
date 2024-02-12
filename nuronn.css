@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #13131d;
+}
+
+nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 20px 7%;
+    border-bottom: 1px solid rgb(62, 61, 72);
+    position: fixed;
+    width: 100%;
+}
+
+.divOne{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.logo{
+    color: rgb(171, 133, 205);
+    font-size: 10px;
+    border-right: solid 1px gray;
+    padding-right: 15px;
+}
+
+.divOne ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.divOne ul li{
+    list-style: none;
+}
+
+.divTwo{
+    display: flex;
+    margin-left: auto;
+    gap: 35px;
+    align-items: center;
+    
+}
+.searchDiv{
+    position: relative;
+}
+
+.searchDiv p{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.divTwo input{
+    background-color: #13131d;
+    padding: 10px 10px;
+    padding-right: 50px;
+    color: white;
+    border: solid 1px gray;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.divTwo button{
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius:10px ;
+}
+
+.divTwo .fa-solid{
+    font-size: 20px;
+}
+
+
+.notficationDiv{
+    position: relative;
+}
+
+.notficationDiv span{
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+.sectiontwo{
+    padding: 30px 7%;
+    color: white;
+}
+
+.sectiontwofirstdiv{
+    display: flex;
+    align-items: center;
+}
+
+.sectiontwofirstdiv div{
+margin-left: auto;
+
+}
+
+.sectiontwofirstdiv div .fa-solid{
+    background-color: rgb(37, 37, 94);
+    font-size: 20px;
+    padding: 13px 20px;
+    color:  skyblue;
+    border-radius: 5px;
+}
+.sectiontwofirstdiv div .fa-solid :hover{
+    background-color: #0d6efd;
+     transition: all ease 0.5s;
+}

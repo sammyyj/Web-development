@@ -1,0 +1,46 @@
+*{
+    padding: ;
+    margin: ;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.gendiv {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 50px 5%;
+}
+
+.gendiv div{
+    margin-bottom: 20px;
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+}
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .gendiv{
+        display:block;
+   }
+   }
+   @media only screen and (min-width: 481px) and (max-width: 769px) {
+    .gendiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+   }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .gendiv{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }    
+    }
